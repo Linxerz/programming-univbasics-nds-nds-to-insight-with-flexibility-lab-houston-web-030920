@@ -53,7 +53,7 @@ director_hash = {}
 pp movies_collection
 #director_hash[movie_with_director_name(name, movies_collection[0])[:director_name]] = movies_collection
 result << director_hash
-pp result[name]
+pp result
 end
 
 
