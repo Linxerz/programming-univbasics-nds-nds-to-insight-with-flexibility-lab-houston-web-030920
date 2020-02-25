@@ -51,7 +51,7 @@ def movies_with_director_key(name, movies_collection)
 
   result = []
   result[name] = movie_with_director_name(name,movies_collection)
-  result
+  pp result
 end
 
 
