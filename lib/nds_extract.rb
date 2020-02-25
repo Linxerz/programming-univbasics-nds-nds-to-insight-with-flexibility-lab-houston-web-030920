@@ -1,6 +1,6 @@
 # Provided, don't edit
 require 'directors_database'
-
+require 'pp'
 # A method we're giving you. This "flattens"  Arrays of Arrays so: [[1,2],
 # [3,4,5], [6]] => [1,2,3,4,5,6].
 
@@ -49,13 +49,7 @@ def movies_with_director_key(name, movies_collection)
   # :director_name key. This addition can be done by using the provided
   # movie_with_director_name method
 
-  result = []
-  tempHash = {}
-  movies_collection.each do |movie|
-    tempHash[movie_with_director_name(name, movies_collection)[:director_name]] = movie
-  end
-  result << tempHash
-  result
+
 end
 
 
