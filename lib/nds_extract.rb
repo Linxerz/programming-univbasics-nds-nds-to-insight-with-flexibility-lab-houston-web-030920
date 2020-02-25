@@ -51,7 +51,7 @@ def movies_with_director_key(name, movies_collection)
 
   result = []
   movies_collection.each do |movie|
-    
+
   pp movies_collection
 end
 
