@@ -75,6 +75,8 @@ def movies_with_directors_set(source)
     director[:movies].each do |movie|
       movie[:director_name] = director[:name]
     end
+    result << director[:movies]
+  end
 
 
 end
