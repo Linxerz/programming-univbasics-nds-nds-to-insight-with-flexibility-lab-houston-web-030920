@@ -51,7 +51,7 @@ def movies_with_director_key(name, movies_collection)
 result = []
 director_hash = {}
 director_hash[movie_with_director_name(name, movies_collection)[:director_name]] = movies_collection
-
+result << director_hash
 end
 
 
