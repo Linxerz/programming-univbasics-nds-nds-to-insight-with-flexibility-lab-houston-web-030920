@@ -78,6 +78,7 @@ def movies_with_directors_set(source)
     result << director[:movies]
   end
 
+  result
 
 end
 
